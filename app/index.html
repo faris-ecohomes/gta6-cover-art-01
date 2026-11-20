@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neon Palms — Cover Studio</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main class="shell">
+  <aside class="panel">
+    <h1>Neon Palms</h1>
+    <p class="lede">Drop in your photos, write a caption, and walk out with
+    multi-panel cover art in the sunset-poster style: cream gutters, a loud
+    colour grade and lettering that shouts. Everything runs on this page —
+    your photos never leave the machine.</p>
+
+    <section class="block">
+      <h2>1 · Photos</h2>
+      <label class="upload">Add your photos
+        <input id="photoFiles" type="file" accept="image/*" multiple>
+      </label>
+      <div id="sampleRow" class="sampleRow"><span class="note">or borrow a sample:</span></div>
+      <div id="tray" class="tray" aria-label="Photos ready to place"></div>
+      <div class="btnRow">
+        <button id="autoBtn" type="button">Fill panels in order</button>
+        <button id="oneBtn" type="button">Same photo everywhere</button>
+      </div>
+      <p class="note">Click a panel on the cover to choose it, drag inside it
+      to reposition its photo, scroll to zoom. Clicking a tray photo drops it
+      into the chosen panel.</p>
+    </section>
+
+    <section class="block">
+      <h2>2 · The cover</h2>
+      <label>Layout <select id="layoutSel"></select></label>
+      <label>Export size <select id="sizeSel"></select></label>
+      <label>Colour grade
+        <select id="gradeSel">
+          <option value="dusk">Dusk — amber into violet</option>
+          <option value="vice">Vice — teal and magenta</option>
+          <option value="gold">Gold — sepia hour</option>
+          <option value="mono">Mono — hard black &amp; white</option>
+          <option value="raw">Raw — no grade</option>
+        </select>
+      </label>
+      <label>Headline <input id="titleIn" type="text" maxlength="26"></label>
+      <label>Tagline <input id="subtitleIn" type="text" maxlength="30"></label>
+      <label>Heat stars <input id="starsIn" type="range" min="0" max="5" step="1"></label>
+      <label class="check"><input id="grainChk" type="checkbox"> Film grain</label>
+      <label class="check"><input id="vigChk" type="checkbox"> Vignette</label>
+    </section>
+
+    <section class="block">
+      <h2>3 · Export</h2>
+      <button id="exportBtn" type="button" class="exportBtn">Download the PNG</button>
+      <p id="status" role="status"></p>
+    </section>
+  </aside>
+  <section class="stageWrap">
+    <canvas id="stage" width="1080" height="1080" aria-label="Live preview of your cover"></canvas>
+  </section>
+</main>
+<script type="module" src="./src/studio.js"></script>
+</body>
+</html>
