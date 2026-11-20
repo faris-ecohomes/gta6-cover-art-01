@@ -1,8 +1,8 @@
 # Neon Palms — Cover Studio
 
-![Competition](https://make.fun/api/badges/competition/gta6-cover-art-01.svg)
-![Rank](https://make.fun/api/badges/repos/faris-ecohomes/gta6-cover-art-01/rank.svg)
-![Reward](https://make.fun/api/badges/repos/faris-ecohomes/gta6-cover-art-01/reward.svg)
+![Competition](https://make.fun/badge/gta6-cover-art-01.svg)
+![Rank](https://make.fun/badge/gta6-cover-art-01/faris-ecohomes/gta6-cover-art-01/rank.svg)
+![Reward](https://make.fun/badge/gta6-cover-art-01/faris-ecohomes/gta6-cover-art-01/reward.svg)
 
 An entry for the make.fun bounty
 [gta6-cover-art-01](https://make.fun/bounty/gta6-cover-art-01): a cover
