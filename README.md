@@ -1,5 +1,7 @@
 # Neon Palms — Cover Studio
 
+*Runs fully offline in the browser — no build step, just open the page.*
+
 ![Competition](https://make.fun/badge/gta6-cover-art-01.svg)
 ![Rank](https://make.fun/badge/gta6-cover-art-01/faris-ecohomes/gta6-cover-art-01/rank.svg)
 ![Reward](https://make.fun/badge/gta6-cover-art-01/faris-ecohomes/gta6-cover-art-01/reward.svg)
