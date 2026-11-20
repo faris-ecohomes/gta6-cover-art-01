@@ -64,6 +64,20 @@ writes `dossier.json` there with the kit's vendored `buildDossier`
 - `main.ts`, `serve.ts` — the hand-in program and a local dev server,
   both Node standard library only.
 
+## Screenshots
+
+Four captures rendered from the running app by `take-shots.mjs`:
+
+- `1-cover.jpg` — the finished cover at its widest: the Showcase layout
+  filled with the sample photos, Dusk grade, headline and heat stars in
+  place.
+- `2-editor.jpg` — the studio mid-edit, with a panel selected and the
+  layout, grade and lettering controls visible around the canvas.
+- `3-export.jpg` — a portrait 1080 × 1350 cover ready to download,
+  showing that the preview carries the exact export pixels.
+- `4-mobile.jpg` — a square 1080 × 1080 cover, the size made for posting
+  to a feed.
+
 ## License
 
 MIT — see `LICENSE`. The fonts under `app/fonts/` are under the SIL Open
